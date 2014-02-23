@@ -4,11 +4,11 @@ Utility for determining object equality, based on Apache Commons [HashCodeBuilde
 
 ```objectivec
 - (NSUInteger)hash {
-    return [[[[[[BRYHashCodeBuilder builderWithInitialValue:17 multiplier:37]
-                appendObject:self.name]
-               appendBool:self.isHidden]
-              appendFloat:self.width]
-             appendInteger:self.index].hashCode;
+    return [[[[[BRYHashCodeBuilder builderWithInitialValue:17 multiplier:37]
+               appendObject:self.name]
+              appendBool:self.isHidden]
+             appendFloat:self.width]
+            appendInteger:self.index].hashCode;
 }
 ```
 
