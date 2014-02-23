@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9357E4EB18BAB9C40034EE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357E4EA18BAB9C40034EE33 /* Foundation.framework */; };
+		9357E4F018BAB9C40034EE33 /* BRYHashCodeBuilder.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9357E4EF18BAB9C40034EE33 /* BRYHashCodeBuilder.h */; };
+		9357E4F218BAB9C40034EE33 /* BRYHashCodeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357E4F118BAB9C40034EE33 /* BRYHashCodeBuilder.m */; };
+		9357E4F918BAB9C40034EE33 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357E4F818BAB9C40034EE33 /* XCTest.framework */; };
+		9357E4FA18BAB9C40034EE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357E4EA18BAB9C40034EE33 /* Foundation.framework */; };
+		9357E4FC18BAB9C40034EE33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357E4FB18BAB9C40034EE33 /* UIKit.framework */; };
+		9357E4FF18BAB9C40034EE33 /* libBRYHashCodeBuilder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9357E4E718BAB9C40034EE33 /* libBRYHashCodeBuilder.a */; };
+		9357E50518BAB9C40034EE33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9357E50318BAB9C40034EE33 /* InfoPlist.strings */; };
+		9357E50718BAB9C40034EE33 /* BRYHashCodeBuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9357E50618BAB9C40034EE33 /* BRYHashCodeBuilderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9357E4FD18BAB9C40034EE33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9357E4DF18BAB9C40034EE33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9357E4E618BAB9C40034EE33;
+			remoteInfo = BRYHashCodeBuilder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9357E4E518BAB9C40034EE33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9357E4F018BAB9C40034EE33 /* BRYHashCodeBuilder.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9357E4E718BAB9C40034EE33 /* libBRYHashCodeBuilder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBRYHashCodeBuilder.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9357E4EA18BAB9C40034EE33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9357E4EE18BAB9C40034EE33 /* BRYHashCodeBuilder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BRYHashCodeBuilder-Prefix.pch"; sourceTree = "<group>"; };
+		9357E4EF18BAB9C40034EE33 /* BRYHashCodeBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRYHashCodeBuilder.h; sourceTree = "<group>"; };
+		9357E4F118BAB9C40034EE33 /* BRYHashCodeBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYHashCodeBuilder.m; sourceTree = "<group>"; };
+		9357E4F718BAB9C40034EE33 /* BRYHashCodeBuilderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRYHashCodeBuilderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9357E4F818BAB9C40034EE33 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9357E4FB18BAB9C40034EE33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9357E50218BAB9C40034EE33 /* BRYHashCodeBuilderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BRYHashCodeBuilderTests-Info.plist"; sourceTree = "<group>"; };
+		9357E50418BAB9C40034EE33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9357E50618BAB9C40034EE33 /* BRYHashCodeBuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRYHashCodeBuilderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9357E4E418BAB9C40034EE33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357E4EB18BAB9C40034EE33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9357E4F418BAB9C40034EE33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357E4FF18BAB9C40034EE33 /* libBRYHashCodeBuilder.a in Frameworks */,
+				9357E4F918BAB9C40034EE33 /* XCTest.framework in Frameworks */,
+				9357E4FC18BAB9C40034EE33 /* UIKit.framework in Frameworks */,
+				9357E4FA18BAB9C40034EE33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9357E4DE18BAB9C40034EE33 = {
+			isa = PBXGroup;
+			children = (
+				9357E4EC18BAB9C40034EE33 /* BRYHashCodeBuilder */,
+				9357E50018BAB9C40034EE33 /* BRYHashCodeBuilderTests */,
+				9357E4E918BAB9C40034EE33 /* Frameworks */,
+				9357E4E818BAB9C40034EE33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9357E4E818BAB9C40034EE33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9357E4E718BAB9C40034EE33 /* libBRYHashCodeBuilder.a */,
+				9357E4F718BAB9C40034EE33 /* BRYHashCodeBuilderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9357E4E918BAB9C40034EE33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9357E4EA18BAB9C40034EE33 /* Foundation.framework */,
+				9357E4F818BAB9C40034EE33 /* XCTest.framework */,
+				9357E4FB18BAB9C40034EE33 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9357E4EC18BAB9C40034EE33 /* BRYHashCodeBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				9357E4EF18BAB9C40034EE33 /* BRYHashCodeBuilder.h */,
+				9357E4F118BAB9C40034EE33 /* BRYHashCodeBuilder.m */,
+				9357E4ED18BAB9C40034EE33 /* Supporting Files */,
+			);
+			path = BRYHashCodeBuilder;
+			sourceTree = "<group>";
+		};
+		9357E4ED18BAB9C40034EE33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9357E4EE18BAB9C40034EE33 /* BRYHashCodeBuilder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9357E50018BAB9C40034EE33 /* BRYHashCodeBuilderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9357E50618BAB9C40034EE33 /* BRYHashCodeBuilderTests.m */,
+				9357E50118BAB9C40034EE33 /* Supporting Files */,
+			);
+			path = BRYHashCodeBuilderTests;
+			sourceTree = "<group>";
+		};
+		9357E50118BAB9C40034EE33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9357E50218BAB9C40034EE33 /* BRYHashCodeBuilderTests-Info.plist */,
+				9357E50318BAB9C40034EE33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9357E4E618BAB9C40034EE33 /* BRYHashCodeBuilder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9357E50A18BAB9C40034EE33 /* Build configuration list for PBXNativeTarget "BRYHashCodeBuilder" */;
+			buildPhases = (
+				9357E4E318BAB9C40034EE33 /* Sources */,
+				9357E4E418BAB9C40034EE33 /* Frameworks */,
+				9357E4E518BAB9C40034EE33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BRYHashCodeBuilder;
+			productName = BRYHashCodeBuilder;
+			productReference = 9357E4E718BAB9C40034EE33 /* libBRYHashCodeBuilder.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9357E4F618BAB9C40034EE33 /* BRYHashCodeBuilderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9357E50D18BAB9C40034EE33 /* Build configuration list for PBXNativeTarget "BRYHashCodeBuilderTests" */;
+			buildPhases = (
+				9357E4F318BAB9C40034EE33 /* Sources */,
+				9357E4F418BAB9C40034EE33 /* Frameworks */,
+				9357E4F518BAB9C40034EE33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9357E4FE18BAB9C40034EE33 /* PBXTargetDependency */,
+			);
+			name = BRYHashCodeBuilderTests;
+			productName = BRYHashCodeBuilderTests;
+			productReference = 9357E4F718BAB9C40034EE33 /* BRYHashCodeBuilderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9357E4DF18BAB9C40034EE33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Bryan Irace";
+			};
+			buildConfigurationList = 9357E4E218BAB9C40034EE33 /* Build configuration list for PBXProject "BRYHashCodeBuilder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9357E4DE18BAB9C40034EE33;
+			productRefGroup = 9357E4E818BAB9C40034EE33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9357E4E618BAB9C40034EE33 /* BRYHashCodeBuilder */,
+				9357E4F618BAB9C40034EE33 /* BRYHashCodeBuilderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9357E4F518BAB9C40034EE33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357E50518BAB9C40034EE33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9357E4E318BAB9C40034EE33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357E4F218BAB9C40034EE33 /* BRYHashCodeBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9357E4F318BAB9C40034EE33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9357E50718BAB9C40034EE33 /* BRYHashCodeBuilderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9357E4FE18BAB9C40034EE33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9357E4E618BAB9C40034EE33 /* BRYHashCodeBuilder */;
+			targetProxy = 9357E4FD18BAB9C40034EE33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9357E50318BAB9C40034EE33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9357E50418BAB9C40034EE33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9357E50818BAB9C40034EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9357E50918BAB9C40034EE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9357E50B18BAB9C40034EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BRYHashCodeBuilder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYHashCodeBuilder/BRYHashCodeBuilder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9357E50C18BAB9C40034EE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BRYHashCodeBuilder.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYHashCodeBuilder/BRYHashCodeBuilder-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9357E50E18BAB9C40034EE33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYHashCodeBuilder/BRYHashCodeBuilder-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BRYHashCodeBuilderTests/BRYHashCodeBuilderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9357E50F18BAB9C40034EE33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BRYHashCodeBuilder/BRYHashCodeBuilder-Prefix.pch";
+				INFOPLIST_FILE = "BRYHashCodeBuilderTests/BRYHashCodeBuilderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9357E4E218BAB9C40034EE33 /* Build configuration list for PBXProject "BRYHashCodeBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9357E50818BAB9C40034EE33 /* Debug */,
+				9357E50918BAB9C40034EE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9357E50A18BAB9C40034EE33 /* Build configuration list for PBXNativeTarget "BRYHashCodeBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9357E50B18BAB9C40034EE33 /* Debug */,
+				9357E50C18BAB9C40034EE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9357E50D18BAB9C40034EE33 /* Build configuration list for PBXNativeTarget "BRYHashCodeBuilderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9357E50E18BAB9C40034EE33 /* Debug */,
+				9357E50F18BAB9C40034EE33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9357E4DF18BAB9C40034EE33 /* Project object */;
+}
