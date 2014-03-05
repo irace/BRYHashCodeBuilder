@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Bryan Irace" => "bryan@irace.me" }
   s.platform     = :ios, '5.0'
   s.source       = { :git => "https://github.com/irace/BRYHashCodeBuilder.git", :tag => "1.0.0" }
-  s.source_files = 'Classes'
+  s.source_files = 'BRYHashCodeBuilder'
   s.framework    = 'Foundation', 'UIKit'
   s.requires_arc = true
 end
