@@ -1,6 +1,6 @@
 # BRYHashCodeBuilder
 
-Utility for determining object equality, based on Apache Commons [HashCodeBuilder](http://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/builder/HashCodeBuilder.html).
+Utility for determining object hash code, based on Apache Commons [HashCodeBuilder](http://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/builder/HashCodeBuilder.html).
 
 ```objectivec
 - (NSUInteger)hash {
