@@ -5,9 +5,10 @@ Pod::Spec.new do |s|
   s.homepage     = "http://github.com/irace/BRYHashCodeBuilder"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Bryan Irace" => "bryan@irace.me" }
-  s.platform     = :ios, '5.0'
+  s.ios.platform = :ios, '5.0'
+  s.osx.platform = :osx, '10.7'
   s.source       = { :git => "https://github.com/irace/BRYHashCodeBuilder.git", :tag => "1.0.0" }
   s.source_files = 'BRYHashCodeBuilder'
-  s.framework    = 'Foundation', 'UIKit'
+  s.framework    = 'Foundation', 'CoreGraphics'
   s.requires_arc = true
 end
