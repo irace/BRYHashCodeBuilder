@@ -33,7 +33,7 @@
  */
 + (instancetype)builderWithInitialValue:(NSUInteger)initial multiplier:(NSUInteger)multiplier;
 
-- (BRYHashCodeBuilder *)appendObject:(id)object;
+- (BRYHashCodeBuilder *)appendObject:(id <NSObject>)object;
 
 - (BRYHashCodeBuilder *)appendInteger:(NSInteger)integer;
 
